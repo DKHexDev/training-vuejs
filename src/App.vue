@@ -20,11 +20,6 @@
   const editorRef = shallowRef()
   const handleMount = editor => (editorRef.value = editor)
 
-  // your action
-  function formatCode() {
-    editorRef.value?.getAction('editor.action.formatDocument').run()
-  }
-
 </script>
 
 
